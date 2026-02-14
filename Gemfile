@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "fastlane"
+gem "fastlane", ">= 2.183.0"
 
 
 plugins_path = File.join(File.dirname(__FILE__), 'android', 'fastlane', 'Pluginfile')
